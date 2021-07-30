@@ -422,7 +422,7 @@ class _MethodChannelCardFieldState extends State<_MethodChannelCardField> {
       if (field.focusedField != null &&
           WidgetsBinding.instance!.focusManager.primaryFocus !=
               _effectiveNode) {
-        _effectiveNode.requestFocus();
+        // _effectiveNode.requestFocus();
       }
       widget.onFocus?.call(field.focusedField);
       // ignore: avoid_catches_without_on_clauses
