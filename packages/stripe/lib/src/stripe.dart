@@ -306,7 +306,7 @@ class Stripe {
     required PresentPaymentSheetParameters parameters,
   }) async {
     await _awaitForSettings();
-    return await _platform.presentPaymentSheet(parameters);
+    return await _platform.presentPaymentSheet();
   }
 
   /// Confirms the paymentsheet payment
